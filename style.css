@@ -1,0 +1,385 @@
+* {
+	margin: 0; padding: 0;
+}
+body {
+	text-align: center;
+	font: 12px Verdana;
+	color: #404040;
+	background: #BEC3B1 url(images/background.gif) repeat-x 0 0;
+}
+a {
+	text-decoration: none;
+	color: #3C4C16;
+}
+a:hover {
+	text-decoration: underline;
+}
+img {
+	border: 0;
+}
+
+.break {
+	font-size: 0;
+	width: 0; height: 0;
+	clear: both;
+}
+.breakrule {
+	background-color: #283409;
+	font-size: 0;
+	height: 20;
+	clear: both;
+}
+.alignleft {
+	float: left;
+	margin: 4px 10px 5px 0;
+}
+.alignright {
+	float: right;
+	margin: 4px 0 5px 10px;
+}
+.aligncenter {
+	text-align: center;
+}
+.hidden {
+	display: none;
+}
+
+/** BEGIN wrapper **/
+#wrapper {
+	width: 980px;
+	margin: auto auto;
+	text-align: left;
+	padding-bottom: 20px;
+}
+/** END wrapper **/
+
+/** BEGIN header **/
+#header {
+	
+}
+	#header .logo {
+		float: left;
+		display: block;		
+		outline: none;
+		width: 980px; height: 225px;
+		background: url(images/basket-of-vegetablesh.jpg) no-repeat 0 0;
+		/**border-bottom: 4px solid #283409; **/
+	}
+		#header .logo h1 {
+			font-family : Comic sans MS, Arial, Verdana, Geneva, Helvetica, sans-serif;
+			font-size: 42px;
+			padding: 14px 20px 0;
+			color: #283409;
+		}
+		#header .logo h2 {
+			font-family : Comic sans MS, Arial, Verdana, Geneva, Helvetica, sans-serif;
+			padding: 1px 30px 0;
+			color: #283409;
+		}
+
+/** END header **/
+
+/** BEGIN body **/
+#body {
+	background: #ffffff;
+}
+/** END body **/
+
+/** BEGIN content **/
+#content {
+	width: 590px;
+	float: left;
+	padding-bottom: 20px;
+}
+	#content p {
+		margin-bottom: 10px;
+		line-height: 1.2em;
+	}
+	#content h3 {
+		margin-bottom: 5px;
+		font-size: 1.5em;
+		font-weight: normal;
+	}
+	#content blockquote {
+		margin-bottom: 10px;
+		padding: 10px 10px 5px;
+		background-color: #eeeeee;
+		border-width: 1px 0;
+		border-style: solid;
+		border-color: #cccccc;
+		font-style: italic;
+		font-weight: bold;
+	}
+	#content ul {
+		margin: 0 0 10px 18px;
+	}
+	#content ol {
+		margin: 0 0 10px 16px;
+		padding-left: 10px;
+	}
+	#content li {
+		padding: 2px 0;
+	}
+	#content .latest {
+		margin: 20px 20px;
+		position: relative;
+		width: 550px; height: 300px;
+	}
+		#content .latest .thumb {
+			height: 300px;
+			overflow: hidden;
+		}
+			#content .latest .thumb img {
+				width: 550px;
+			}
+		#content .latest .text {
+			color: #ffffff;
+			background: url(images/shade.png) repeat 0 0;
+			padding: 8px 15px 0px;
+			position: absolute;
+			bottom: 0; left: 0;
+			width: 520px;
+		}
+			#content .latest .text h2 {
+				font-size: 1.3em;
+				font-weight: normal;
+				margin-bottom: 10px;
+			}
+			#content .latest .text a {
+				color: #ffffff;
+			}
+
+/** END content **/
+
+/** BEGIN sidebar **/
+#sidebar {
+	width: 390px;
+	float: right;
+	background: #CCEECC;
+}
+	#sidebar .details {
+		font-size: 0.8em;
+		color: #BABEAE;	
+	}
+	#sidebar h2 {
+		font-size: 1em;
+		color: #3C4C16;
+		padding: 10px 15px;
+	}
+		#sidebar p {
+		font-size: 12px;
+		color: #404040;
+		padding: 5px 15px;
+	}	
+		#sidebar ul {
+		list-style-type: none;
+		padding: 0 15px 10px;
+		border-bottom: 1px solid #E7E6E6;
+	}
+		#sidebar ul li {
+			line-height: 1.3em;
+			padding: 4px 0;
+		}
+		#sidebar ul li a {
+			color: #404040;
+		}
+		#sidebar ul li a:hover {
+			color: #3C4C16;
+		}
+	#sidebar .l {
+		float: left;
+		width: 175px;
+	}
+	#sidebar .r {
+		float: right;
+		width: 175px;
+	}
+		#sidebar .l ul, #sidebar .r ul {
+			border-bottom: 0;
+		}
+	#sidebar .tags {
+		padding: 10px 15px;
+		border-bottom: 1px solid #E7E6E6;
+	}
+		#sidebar .tags a {
+			color: #808080;
+		}
+		#sidebar .tags a:hover {
+			text-decoration: none;
+			color: #3C4C16;
+		}
+	#sidebar form {
+		border-bottom: 1px solid #E7E6E6;
+		background: url(images/search.gif) no-repeat 20px 10px;
+		padding: 10px 20px;
+		height: 30px;
+	}
+		#sidebar form input {
+			border: 0;
+			background-color: transparent;
+			width: 234px;
+			margin: 7px 1px 0 2px;
+			font-size: 1.2em;
+			color: #ffffff;
+			float: left;
+		}
+		#sidebar form button {
+			border: 0;
+			background-color: transparent;
+			text-indent: -9999px;
+			width: 75px; height: 30px;
+		}
+
+/** END sidebar **/
+
+/** BEGIN footer **/
+#footer {
+	background-color: #959989;
+	color: #283409;
+	border-bottom: 4px solid #283409;
+	padding: 10px;
+}
+	#footer a {
+		color: #ffffff;
+	}
+/** END footer **/
+
+/** BEGIN miscellaneous **/
+
+#post { 
+	margin: 10px 20px;
+	clear: both;
+}
+	#post .thumb {
+		height: 67px;
+		overflow: hidden;
+		float: left;
+		margin: 0 15px 10px 0;
+	}
+		#post .thumb .post img {
+			width: 100px;
+		}
+	#post h2 {
+		font-size: 1.2em;
+		margin-bottom: 5px;
+		padding: 0px;
+	}
+	#post h2 a {
+		text-decoration: underline;
+	}
+	#post .details {
+		font-size: 0.9em;
+		color: #BABEAE;
+		}
+	
+#nav {
+	}
+	#nav ul {
+		list-style-type: none;
+		background-color: #283409;
+		height: 18px;
+		margin: 0px;
+	}
+		#nav ul li {
+			float: left;
+			padding: 0px 2px;
+			background: url(images/divider.gif) no-repeat right 0;
+		}
+		#nav ul li a {
+			color: #ffffff;
+			display: block;
+			padding: 1px 18px 2px;
+		}
+}
+.postnav {
+	clear: both;
+	padding: 20px 40px 0;
+	font-size: 0.9em;
+}
+	.postnav a {
+		border: 1px solid #cccccc;
+		padding: 3px 8px;
+		color: #999999;
+	}
+	.postnav a:hover {
+		border: 1px solid #000000;
+		color: #000000;
+		text-decoration: none;
+	}
+#comments {
+	margin-top: 20px;
+	border-top: 1px solid #eeeeee;
+}
+	#comments h2 {
+		margin: 20px 0 5px;
+		font-size: 1.5em;
+	}
+	#comments p {
+		margin-bottom: 10px;
+		line-height: 1.5em;
+	}
+	#comments form {
+		padding-top: 20px;
+	}
+	#comments form p {
+		margin-bottom: 5px;
+	}
+		#comments form input, textarea {
+			border: 1px solid #cccccc;
+			font-size: 0.9em;
+			font-family: Verdana;
+			padding: 4px 4px 4px 20px;
+			background-position: 4px 4px;
+			background-repeat: no-repeat;
+		}
+		#comments form input {
+			width: 260px;
+			border: 1px solid #cccccc;
+		}
+		#comments form textarea {
+			width: 350px;
+			padding: 4px 4px !important;
+			border: 1px solid #cccccc;
+		}
+		#comments form button {
+			border: 1px solid #909090;
+			background-color: #cccccc;
+			font-size: 0.9em;
+			font-family: Verdana;
+			width: 120px; height: 23px;
+		}
+	.commentdetails {
+		margin-top: 25px;
+	}
+	.commentauthor {
+		margin-bottom: 5px !important;
+		font-weight: bold;
+	}
+	.commentdate {
+		font-size: 0.8em;
+		margin-bottom: 5px;
+		color: #909090;
+	}
+	.required {
+		color: #ff0000;
+	}
+h2.title {
+	font-size: 1em;
+	text-transform: uppercase;
+	padding: 25px 40px 20px;
+	color: #565656;
+}
+.single{
+	padding-top: 20px;
+}
+
+.notfound {
+	padding: 40px;
+}
+	.notfound h2 {
+		font-size: 18px;
+		font-weight: normal;
+		margin-bottom: 10px;
+	}
+/** END miscellaneous **/
+
